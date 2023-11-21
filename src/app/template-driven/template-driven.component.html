@@ -1,0 +1,22 @@
+<div class="container">
+    <h2>User Registration Template Driven form</h2>
+    <form #userForm="ngForm" (ngSubmit)="onSubmit(userForm)">
+      <div>
+        <mat-form-field>
+          <mat-label>Name</mat-label>
+          <input matInput type="text" id="name" name="name" ngModel required>
+        </mat-form-field>
+      </div>
+      <div>
+        <mat-form-field>
+          <mat-label>Email</mat-label>
+          <input matInput type="email" id="email" name="email" ngModel required>
+        </mat-form-field>
+      </div>
+      <div>
+        <button mat-raised-button type="submit" [disabled]="!userForm.valid">Submit</button>
+      </div>
+    </form>
+  </div>
+  
+  

@@ -1,0 +1,15 @@
+
+  
+  <mat-drawer-container class="example-container" autosize>
+    <mat-drawer #drawer class="example-sidenav" mode="side">
+      <p *ngIf="showFiller">Lorem, ipsum dolor sit amet consectetur.</p>
+      <h3 id="reactiveForm" routerLink="reactive" routerLinkActive="active" [routerLink]="'reactive'">Reactive Form</h3>
+      <h3 id="templateDrivenForm" routerLink="templateDriven" routerLinkActive="active" [routerLink]="'templateDriven'">Template Driven Form</h3>
+    </mat-drawer>
+    <div class="example-sidenav-content">
+      <button mat-raised-button color="primary" type="button" mat-button (click)="drawer.toggle()">
+        Menu Bar
+      </button>
+    </div>
+  
+  </mat-drawer-container>

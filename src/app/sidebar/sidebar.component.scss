@@ -1,0 +1,42 @@
+.example-container {
+    width: 17%;
+    height: 100%;
+  }
+  
+  .example-sidenav-content {
+    display: flex;
+    height: 10%;
+    align-items: center;
+    // justify-content: center;
+  }
+  
+  .example-sidenav {
+    padding: 20px;
+  }
+
+
+    
+  #reactiveForm{
+    cursor: pointer;
+  }
+
+//   #reactiveForm:hover{
+//     cursor: pointer;
+//     color: rgb(102, 102, 102);
+//   }
+  
+  #templateDrivenForm {
+    cursor: pointer;
+  }
+
+//   #templateDrivenForm:hover {
+//     cursor: pointer;
+//     color: rgb(102, 102, 102);
+
+//   }
+
+  
+  .active {
+    color: rgb(102, 201, 102);
+    text-decoration: underline;
+  }
